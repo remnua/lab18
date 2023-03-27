@@ -95,6 +95,6 @@ int main(void) {
     Date birthDate = { 2004, 5, 28 };
     Date currentDate = today();
     int days = daysBetween(birthDate, currentDate);
-    std::cout << "Days since my birthday: " << days << std::endl;
+    cout << "Days since my birthday: " << days << std::endl;
     return 0;
 }
